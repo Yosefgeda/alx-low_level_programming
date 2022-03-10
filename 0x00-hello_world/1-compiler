@@ -1,2 +1,2 @@
-#!/bin/bahs
-gcc -c output0. o
+#!/bin/bash
+gcc -c 
