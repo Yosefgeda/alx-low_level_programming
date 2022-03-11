@@ -4,15 +4,17 @@
 /* more headers goes there */
 
 
-/* betty style doc for function main goes there */
 /**
- * execution of main results a random number checked for polarity
- * the rand fuction generates the number 
-*/
+ * main - execution of main results a random number checked for polarity
+ * Return: random number and its polarity
+ */
 int main(void)
 
 {
-
+	/**
+	 * this program generates a random number
+	 * and the numbers polarity is checked
+	 */
 	int n;
 
 	srand(time(0));
@@ -23,6 +25,10 @@ int main(void)
 		printf("%d is zero\n", n);
 	else
 	printf("%d is negative\n", n);
+	/**
+	 * return - function returns the conditional value
+	 * the returned value is for the random number
+	 */
 	return (0);
 
 }
