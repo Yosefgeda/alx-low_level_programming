@@ -5,11 +5,12 @@
 
 
 /* betty style doc for function main goes there */
-/** execution of main results a random number checked for polarity
-* the rand fuction generates the number 
+/**
+ * execution of main results a random number checked for polarity
+ * the rand fuction generates the number 
 */
-  
-  int main(void)
+int main(void)
+
 {
 
 	int n;
