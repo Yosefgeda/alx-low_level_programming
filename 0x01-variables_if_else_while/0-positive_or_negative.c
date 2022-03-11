@@ -5,9 +5,13 @@
 
 
 /* betty style doc for function main goes there */
-int main(void)
+/** execution of main results a random number checked for polarity
+* the rand fuction generates the number 
+*/
+  
+  int main(void)
 {
-/*gives random number and check for polarity*/
+
 	int n;
 
 	srand(time(0));
