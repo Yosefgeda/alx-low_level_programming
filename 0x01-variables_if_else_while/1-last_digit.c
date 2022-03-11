@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main -
- * Return:
+ * main - executes the random number and last digit
+ * Return: returns the last digit compared to certain numbers
  */
 int main(void)
 {
