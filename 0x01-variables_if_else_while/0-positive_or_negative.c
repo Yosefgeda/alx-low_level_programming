@@ -7,6 +7,7 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
+/*gives random number and check for polarity*/
 	int n;
 
 	srand(time(0));
