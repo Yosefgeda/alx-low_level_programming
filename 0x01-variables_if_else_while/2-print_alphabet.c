@@ -2,16 +2,14 @@
 #include <stdlib.h>
 int main ()
 {
-	char ch = 'a';
-	
-	while (ch <= 'z')
-	{
-		putchar(ch);
-		putchar('\n');
-		ch++;
+	char A;
 
-	}
-	return 0;
+	for (A='a' ; A <- 'z'; A++)
+		putchar(A);
+		putchar('\n');
+	
+		
+		return 0;
 
 
 
