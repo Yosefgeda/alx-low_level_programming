@@ -2,6 +2,7 @@
 
 /**
  * main - size of
+ *
  * Return: prints sizes
  */
 int main(void)
