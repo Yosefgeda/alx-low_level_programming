@@ -4,12 +4,11 @@
  * main - to exexute alphabet without e and q
  * Return: alphabet in lower case without e and q
  */
+
 int main(void)
 {
-	
 	char ch = 'a';
-
-	for (ch = 'a'; ch <= 'z'; ch++)
+		for (ch = 'a'; ch <= 'z'; ch++)
 		if (ch == 'e')
 			continue;
 		else if (ch == 'q')
