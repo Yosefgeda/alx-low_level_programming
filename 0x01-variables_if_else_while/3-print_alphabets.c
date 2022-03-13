@@ -5,7 +5,7 @@
  * Return: prints first lower then upper cases alphabets
  */
 
-int main(void)
+int main (void)
 {
 	char ch = 'a';
 	char CH = 'A';
@@ -23,7 +23,7 @@ int main(void)
 		CH++;
 	}
 	putchar('\n');
-
+	return (0);
 
 }
 
