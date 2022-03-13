@@ -7,6 +7,7 @@ int main ()
 	while (ch <= 'z')
 	{
 		putchar(ch);
+		putchar('\n');
 		ch++;
 
 	}
