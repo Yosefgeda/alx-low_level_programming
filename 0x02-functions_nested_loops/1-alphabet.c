@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-
+#include "main.h"
 /**
  * main - print alphabet
  * Return: value from a to z
@@ -15,12 +15,3 @@
 		}		
 		
 	}
-int main(void)
-{
-
-{
-   void print_alphabet(void);
-	putchar('\n');
-	return (0);
-}
-}
