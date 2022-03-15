@@ -15,4 +15,12 @@
 		}		
 		return;
 	}
-	
+	int main()
+{
+
+{
+   void print_alphabet(void);
+	putchar('\n');
+	return (0);
+}
+}
