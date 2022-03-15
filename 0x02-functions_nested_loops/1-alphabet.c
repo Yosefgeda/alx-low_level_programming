@@ -5,7 +5,7 @@
  * main - print alphabet
  * Return: value from a to z
  */
-	void print_alphabet(void)
+	int print_alphabet(void)
 	{
 		char ch = 'a';
 		while (ch <= 'z')
