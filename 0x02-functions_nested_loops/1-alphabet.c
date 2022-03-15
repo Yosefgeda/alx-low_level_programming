@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "main.h"
 #include "main.c"
-
+#include <unistd.h>
 /**
  * main - print alphabet
  * Return: value from a to z
@@ -13,7 +13,7 @@
 		char ch = 'a';
 		while (ch <= 'z')
 		{
-			putchar(ch);
+			_putchar(ch);
 			ch++;
 		}	
 		
