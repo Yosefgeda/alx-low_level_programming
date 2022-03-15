@@ -4,7 +4,7 @@
 /**
  * print_alphabet - prints lower case alpahets
  *
- * Description: takes in two variables whcih would help in the output
+ * Description: takes in two variables whcih print
  *
  * Return: lowercase 
  */
