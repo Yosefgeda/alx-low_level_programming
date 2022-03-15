@@ -12,7 +12,7 @@
 		{
 			putchar(ch);
 			ch++;
-			
+		}		
 		return;
 	}
 	
