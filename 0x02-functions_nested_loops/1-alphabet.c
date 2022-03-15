@@ -5,7 +5,7 @@
  * main - print alphabet
  * Return: value from a to z
  */
-	int print_alphabet(void)
+	void print_alphabet(void)
 	{
 		char ch = 'a';
 		while (ch <= 'z')
@@ -15,11 +15,11 @@
 		}		
 		
 	}
-	int main()
+int main(void)
 {
 
 {
-   int print_alphabet(void);
+   void print_alphabet(void);
 	putchar('\n');
 	return (0);
 }
