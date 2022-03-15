@@ -2,18 +2,21 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - print alphabet
- * Return: value from a to z
+ * print_alphabet - prints lower case alpahets
+ *
+ * Description: takes in two variables whcih would help in the output
+ *
+ * Return: lowercase 
  */
 	void print_alphabet(void)
 	{
 		char ch = 'a';
 		
-		while (ch <= 'z')
-		{
-			putchar(ch);
-			ch++;
-		}
-		putchar('\n');
+			while (ch <= 'z')
+			{
+				putchar(ch);
+				ch++;
+			}
+			putchar('\n');
 	}
 	
