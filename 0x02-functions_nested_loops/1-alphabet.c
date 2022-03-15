@@ -15,5 +15,6 @@
 			putchar(ch);
 			ch++;
 		}	
-		
+		return;
 	}
+	
