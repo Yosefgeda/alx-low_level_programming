@@ -13,6 +13,6 @@
 			putchar(ch);
 			ch++;
 		}		
-		return(1);
+		return;
 	}
 	
