@@ -8,12 +8,12 @@
  * Return: value from a to z
  */
 
-        void print_alphabet(void)
+        void print_alphabet()
 	{
 		char ch = 'a';
 		while (ch <= 'z')
 		{
-			_putchar(ch);
+			putchar(ch);
 			ch++;
 		}	
 		
