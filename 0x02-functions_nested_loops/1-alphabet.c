@@ -6,8 +6,6 @@
  * Return: value from a to z
  */
 
-int main(void)
-{
         void print_alphabet(void)
 	{
 		char ch = 'a';
@@ -16,11 +14,4 @@ int main(void)
 			putchar(ch);
 			ch++;
 		}	
-	}
-        return (0);
-
-
-
-
-}
-
+	}       
