@@ -2,14 +2,13 @@
 #include "main.h"
 /** 
  * int _islower - lower alphabet
+ * @c: parameter
  * Return: 1 or 0
  */
 
 int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
-		putchar('1');
-	else putchar('0');
-	return (c);
+		return (1);
+	else return(0);
 }
-
