@@ -10,7 +10,7 @@ int print_sign(int n)
 {
 	if (n > 0)
 		{
-		putchar('0');
+		putchar('1');
 		return(1);
 		}
 		
