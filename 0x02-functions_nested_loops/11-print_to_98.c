@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * add - checks if sign of number
+ * print_to_98 - checks if sign of number
  * @n: input integer
- * 
  * Return: sum
  */
 void print_to_98(int n)
