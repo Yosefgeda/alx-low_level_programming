@@ -1,3 +1,5 @@
+#include <stdio>
+#include "main.h"
 /** 
  * int _islower - lower alphabet
  * Return: 1 or 0
