@@ -15,26 +15,24 @@ i = 0;
 result = 0;
 
 while (i < 10)
-	{
-		while (result <= 14)
-		{	
-			if (result < 10)
-			{
-				second = result;
-			}
-			else
-			{
-				first = result / 10;
-				second = result % 10;
-				_putchar (first + '0');
-			}
-			_putchar (second + '0');
-			result++;
-		}
-		i++;
-		result = 0;
-		_putchar ('\n');
-	}
-
-
+{
+while (result <= 14)
+{
+if (result < 10)
+{
+second = result;
+}
+else
+{
+first = result / 10;
+second = result % 10;
+_putchar (first + '0');
+}
+_putchar (second + '0');
+result++;
+}
+i++;
+result = 0;
+_putchar ('\n');
+}
 }
