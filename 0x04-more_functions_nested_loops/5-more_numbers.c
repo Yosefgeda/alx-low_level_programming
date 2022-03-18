@@ -7,12 +7,32 @@ void more_numbers(void)
 {
 
 int i;
-int n;
+int first;
+int second;
+int result;
 
-for (i = 0 ; i < 10 ; i++)
-{
-for (n = 0 ; n <= 14 ; n++)
-	printf("%d", n);
-	putchar('\n');
+i=0;
+result=0;
+while (i < 10)
+	{
+		while (result <= 14)
+		{	if (result < 10)
+			{
+				second = result;
+			}
+			else
+			{
+				first = result / 10;
+				second = result % 10;
+				_putchar (first + '0');
+			}
+		_putchar (second + '0');
+		result++;
+		}	
+	i++;
+	result = 0;
+	_putchar ('\n');
+	}
+
 
 }
