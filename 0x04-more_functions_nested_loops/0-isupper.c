@@ -1,10 +1,10 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * _isupper - check case
  * @c: variable 
  * Return: 0
  */
+
 int _isupper(int c)
 {
 
