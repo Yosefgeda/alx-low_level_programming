@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isupper - check case
- * @c: variable 
+ * @c: variable
  * Return: 0
  */
 
