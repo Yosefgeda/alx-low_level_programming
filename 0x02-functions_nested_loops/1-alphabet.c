@@ -6,17 +6,15 @@
  *
  * Description: takes in two variables whcih print
  *
- * Return: lowercase 
+ * Return: lowercase
  */
-	void print_alphabet(void)
-	{
-		char ch = 'a';
-		
-			while (ch <= 'z')
-			{
-				putchar(ch);
-				ch++;
-			}
-			putchar('\n');
-	}
-	
+void print_alphabet(void)
+{
+	char ch = 'a';
+		while (ch <= 'z')
+		{
+			putchar(ch);
+			ch++;
+		}
+		putchar('\n');
+}
