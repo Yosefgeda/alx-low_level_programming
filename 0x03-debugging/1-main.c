@@ -6,21 +6,20 @@
 
 int main(void)
 {
-	int i;
-	
-	printf("infinite loop incoming :(\n)");
-	
-	i = 0;
+int i;
 
-	/*
-	 * while (i < 10)
-	 * {
-	 * Infinite loop - No increment if variable
-	 * putchar(i);
-	 * }
-	*/
+printf("infinite loop incoming :(\n)");
 	
-	printf("Infinite loop avoided! \\o/\n*");
+i = 0;
 
-	return (0);
+/*
+ *while (i < 10)
+ *{
+ *Infinite loop - No increment of variable
+ *putchar(i);
+}
+*/
+	
+printf("Infinite loop avoided! \\o/\n*");
+return (0);
 }
