@@ -10,10 +10,19 @@ int main(void)
 	int i;
 	
 	printf("infinite loop incoming :(\n)");
+	
+	/**
+	 * i is always less than 10
+	 */
 
 	i = 0;
-
-	printf("infinite loop avoided: \\o/\n*");
+	
+	while (i < 10)
+	{
+		putchar(i);
+	}
+	
+	printf("Infinite loop avoided! \\o/\n*");
 
 	return (0);
 }
