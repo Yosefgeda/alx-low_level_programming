@@ -11,12 +11,14 @@ int first;
 int second;
 int result;
 
-i=0;
-result=0;
+i = 0;
+result = 0;
+
 while (i < 10)
 	{
 		while (result <= 14)
-		{	if (result < 10)
+		{	
+			if (result < 10)
 			{
 				second = result;
 			}
@@ -26,12 +28,12 @@ while (i < 10)
 				second = result % 10;
 				_putchar (first + '0');
 			}
-		_putchar (second + '0');
-		result++;
-		}	
-	i++;
-	result = 0;
-	_putchar ('\n');
+			_putchar (second + '0');
+			result++;
+		}
+		i++;
+		result = 0;
+		_putchar ('\n');
 	}
 
 
