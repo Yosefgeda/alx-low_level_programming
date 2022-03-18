@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - multiplies numbers
+ * mul - multiplies
  * @a: first variable
  * @b: second variable
  * Return: product
