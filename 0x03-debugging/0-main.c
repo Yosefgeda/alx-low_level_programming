@@ -1,5 +1,5 @@
 #include <stdlib.h>
-
+#include "main.h"
 /**
  * main - loop
  * Return: 0
