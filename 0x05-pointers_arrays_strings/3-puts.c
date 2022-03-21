@@ -11,8 +11,8 @@ int i = 0;
 
 while (str[i] != '\n')
 {
-	printf("%c", str[i]);
+	_putchar(str[i]);
 	i++;
 }
-	printf("\n");
+	_putchar('\n');
 }
