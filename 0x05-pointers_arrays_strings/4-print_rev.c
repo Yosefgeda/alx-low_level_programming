@@ -5,14 +5,19 @@
  * @s: string
  * Return: string
  */
-void rev_string(char *s)
+void print_rev(char *s)
 {
-int i;
+int i = 0;
+int length;
 
-for (i = '\0' ; s[i] > '\0' ; i--)
+for (length = 0 ; s[length] != '\0' ; length++)
 {
-        _putchar(s[i]);
+
 }
-        _putchar('\n');
+for (i = length ; s[length] != '\0' ; i--)
+{
+_putchar(s[i]);
+}
+_putchar('\n');
 }
 
