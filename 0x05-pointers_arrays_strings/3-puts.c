@@ -11,6 +11,6 @@ int i;
 
 for (i = 0 ; str[i] != '\n' ; i++)
 {
-	printf("%c\n", i);
+	printf("%c\n", str[i]);
 }
 }
