@@ -7,21 +7,9 @@
  */
 int _atoi(char *s)
 {
-int i = 0, sum = 0;
+int digit;
 
-while (s[i] != '\0')
-{
-	if (s[i] < 48 || s[i > 57])
-	{
-		printf("no value");
-	}
-
-	else
-	{
-		sum = sum * 10 + (s[i] - 48);
-		printf("%d", sum);
-	}
-	i++;
-}
-	return (sum);
+digit = s[0];
+digit = digit -48;
+return digit;
 }
