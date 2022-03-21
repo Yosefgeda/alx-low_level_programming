@@ -7,10 +7,11 @@
  */
 void _puts(char *str)
 {
-int i;
+int i = 0;
 
-for (i = 0 ; str[i] != '\n' ; i++)
+while (str[i] != '\n')
 {
 	printf("%c\n", str[i]);
+	i++;
 }
 }
