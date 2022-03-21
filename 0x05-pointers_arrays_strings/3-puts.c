@@ -11,7 +11,8 @@ int i = 0;
 
 while (str[i] != '\n')
 {
-	printf("%c\n", str[i]);
+	printf("%c", str[i]);
 	i++;
 }
+	printf("\n");
 }
