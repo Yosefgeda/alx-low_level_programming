@@ -19,6 +19,7 @@ while (s[i] != '\0')
 	else
 	{
 		sum = sum *10 + (s[i] - 48);
+		printf("%d", sum);
 	}
 	i++;
 }
