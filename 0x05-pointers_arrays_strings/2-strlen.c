@@ -6,5 +6,6 @@
  */
 int _strlen(char *s)
 {
-sizeof (s);
+printf("%d", sizeof (s));
+return (s);
 }
