@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _puts - function
- * @str: string
+ * print_rev - function
+ * @s: string
  * Return: string
  */
-void print_rev(char *s);
+void print_rev(char *s)
 {
 int i;
 
