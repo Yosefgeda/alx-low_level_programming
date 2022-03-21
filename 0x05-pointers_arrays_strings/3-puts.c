@@ -11,8 +11,7 @@ int i;
 
 for (i = 0 ; str[i] != '\0' ; i++)
 {
-	printf("%c",str[i]);
-
+	_putchar(str[i]);
 }
 	_putchar('\n');
 }
