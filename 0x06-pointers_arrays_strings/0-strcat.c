@@ -15,13 +15,13 @@ i = 0;
 
 while (dest[i] != '\0')
 {
-printf("%s ", dest);
 i++;
 }
 while (src[j] != '\0')
 {
-printf("%s", src);
 j++;
 }
+printf("%s", dest);
+printf("%s", src);
 return (dest);
 }
