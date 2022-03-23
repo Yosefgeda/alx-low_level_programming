@@ -13,7 +13,8 @@ int i;
 i = 0;
 while (dest[i] != '\0')
 {
-printf("%s", dest);
+printf("%s ", dest);
+i++;
 }
 printf("%s", src);
 return (dest);
