@@ -15,6 +15,6 @@ while (dest[i] < '\0')
 {
 printf("%s", dest);
 }
-printf("%s", scr);
-return(i);
+printf("%s", src);
+return(dest);
 }
