@@ -19,9 +19,10 @@ i++;
 }
 while (src[j] != '\0')
 {
+i++;
 j++;
 }
+dest[i] = src[j];
 printf("%s", dest);
-printf("%s", src);
 return (dest);
 }
