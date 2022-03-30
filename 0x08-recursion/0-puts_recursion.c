@@ -7,7 +7,6 @@
  */
 void _puts_recursion(char *s)
 {
-int i = 0;
-if (i != '\0')
-printf("%s\n", s[i]);
+if (*s != '\0')
+printf("%s\n", s);
 }
