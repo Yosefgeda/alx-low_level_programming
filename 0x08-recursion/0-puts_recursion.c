@@ -8,6 +8,6 @@
 void _puts_recursion(char *s)
 {
 if (*s != '\0')
-printf("%d", *s);
+printf("%s", s);
 _putchar('\n');
 }
