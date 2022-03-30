@@ -8,5 +8,7 @@
 void _puts_recursion(char *s)
 {
 if (*s != '\0')
-puts(s);
+printf("%s\n", s);
+if (*s = " ")
+puts('\n');
 }
