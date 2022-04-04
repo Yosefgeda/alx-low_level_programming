@@ -9,6 +9,11 @@
  */
 int main(int argc, char *argv[])
 {
+argc = 0;
+while (argc >= 0)
+{
 printf("%d\n", argc);
+argc++;
+}
 return (0);
 }
