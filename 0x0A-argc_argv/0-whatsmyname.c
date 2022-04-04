@@ -12,7 +12,7 @@ int i;
 
 for (i = 0 : i =! '\0' ; i++)
 {
-printf("%s\n", argv[i]);
+printf("%c\n", argv[i]);
 }
 return (0);
 }
