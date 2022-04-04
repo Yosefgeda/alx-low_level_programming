@@ -9,6 +9,7 @@
  */
 int main (int argc, char *argv[])
 {
-_putchar("%s\n", argv[0]);
+char argv[] = {"mynameis"};
+printf("%s\n", argv);
 return (0);
 }
