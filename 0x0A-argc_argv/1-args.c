@@ -9,6 +9,14 @@
  */
 int main(int argc, char *argv[])
 {
-_putchar(argc);
+int i;
+
+for (i = 0 ; argv[i] <= argc ; i++)
+{
+for (argc = 0 ; argc <= i ; argc++)
+{
+printf("%d\n", argc);
+}
+}
 return (0);
 }
