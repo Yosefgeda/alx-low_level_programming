@@ -14,8 +14,8 @@ int sum = 0;
 for (i = 0 ; i < argc ; i++)
 {
 	if (i = 0)
-	printf("0\n");
-	else if (i < 47 && i > 57)
+		printf("0\n");
+	else if (!isdigit(i))
 		printf("Error\n");
 		return (1);
 	else if 
