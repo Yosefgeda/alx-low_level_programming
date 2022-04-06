@@ -11,9 +11,10 @@ int mul = 1;
 if (argc > 1)
 {
 for (i = 1 ; i < argc ; i++)
-mul = mul * argv[1];
-printf("%d\n", mul);
+mul = mul * argv[i];
 }
+printf("%d\n", mul);
+
 else
 {
 printf("error");
