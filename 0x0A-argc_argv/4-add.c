@@ -8,20 +8,20 @@
  */
 int main(int argc, char *argv[])
 {
-int i;
-int sum = 0;
+int i, j, add = 0;
 
-for (i = 0 ; i < argc ; i++)
+for (i = 1; i < argc; i++)
 {
-	if (i = 0)
-		printf("0\n");
-	else if (!isdigit(i))
-		printf("Error\n");
-		return (1);
-	else if 
-	{
-		sum = sum + atoi(argv[i]);
-	}
-		printf("%d\n", sum);
+for (j = 0; argv[i][j] != '\0'; j++)
+{
+if (!isdigit(argv[i][j]))
+{
+printf("Error\n");
+return (1);
 }
+}
+add += atoi(argv[i]);
+}
+printf("%d\n", add);
+return (0);
 }
