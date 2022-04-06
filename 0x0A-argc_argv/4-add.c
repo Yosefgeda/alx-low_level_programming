@@ -18,6 +18,10 @@ if (!isdigit(argv[i]))
 printf("Error\n");
 return (1);
 }
+else if (i = 0)
+{
+printf("0\n");
+}
 else
 {
 sum += atoi(argv[i]);
