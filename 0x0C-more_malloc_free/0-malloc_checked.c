@@ -15,7 +15,7 @@ unsigned int i;
 i = *malloc(sizeof(*ptr));
 
 if (ptr == NULL)
-	return (98);
+	printf("98");
 else
 	printf("%d", i);
 }
