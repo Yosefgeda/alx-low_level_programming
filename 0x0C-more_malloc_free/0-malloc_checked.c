@@ -9,8 +9,13 @@
 
 void *malloc_checked(unsigned int b)
 {
-if (b == NULL)
+unsigned int *ptr = &b;
+unsigned int i;
+
+i = *malloc(sizeof(*ptr));
+
+if (ptr == NULL)
 	return (98);
 else
-	*malloc(sizeof(b));
+	printf("%d", i);
 }
