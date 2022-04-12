@@ -1,3 +1,4 @@
+
 /**
  * struct dog - file for a dog
  * @name: first member
@@ -8,7 +9,8 @@
 
 struct dog
 {
-char *name;
-float age;
-char *owner;
+	char *name;
+	float age;
+	char *owner;
 };
+
