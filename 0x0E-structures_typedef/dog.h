@@ -1,4 +1,3 @@
-
 /**
  * struct dog - file for a dog
  * @name: first member
