@@ -15,8 +15,11 @@ va_start(arg, n);
 
 int i = 0, sum = 0;
 
-for (i = 0 ; i < n ; i++)
-	sum += va_arg(arg, unsigned int);
+if (n == 0)
+	return (0);
+else
+	for (i = 0 ; i < n ; i++)
+		sum += va_arg(arg, unsigned int);
 va_end(arg);
 return (sum);
 
