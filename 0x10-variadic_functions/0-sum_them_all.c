@@ -19,7 +19,7 @@ if (n == 0)
 	return (0);
 else
 	for (i = 0 ; i < n ; i++)
-		sum += va_arg(arg, unsigned int);
+		sum += va_arg(arg, const unsigned int);
 va_end(arg);
 return (sum);
 
