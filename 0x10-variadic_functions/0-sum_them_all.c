@@ -13,13 +13,14 @@ va_list arg;
 
 va_start(arg, n);
 
-int i = 0, sum = 0;
+unsigned int i = 0,
+int sum = 0;
 
 if (n == 0)
 	return (0);
 else
 	for (i = 0 ; i < n ; i++)
-		sum += va_arg(arg, const unsigned int);
+		sum += va_arg(arg, int);
 va_end(arg);
 return (sum);
 
